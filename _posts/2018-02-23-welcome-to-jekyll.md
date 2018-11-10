@@ -1,28 +1,140 @@
 ---
 layout: post
 title: good afternoon
-author: dan_urbanowicz
-date: '2018-07-03 12:00:00'
+author: Isaac Madearis
+date: '2018-11-10 00:11:00'
 categories: misc
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+#  Intro to HTML
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+So what is \[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-Jekyll also offers powerful support for code snippets:
+\>HTML (HyperText Markup Language) is the most basic building block of the Web. It describes and defines the content of a webpage. Other technologies besides HTML are generally used to describe a webpage's appearance/presentation (CSS) or functionality/behavior (JavaScript).
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+So HTML has these elements that are tags such as heading tags`<h1> Hello World </h1>,<h2>Hello World</h2>\`, paragraph tags `<p>Hello World</p>\` as you can see each tag has a opening tag \`<h1>, <p>\`, and a closing tag \`</h1>,</p>`. 
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+So here's a example of a HTML page:
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+\`\``
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Page Title</title>
+
+</head>
+
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+
+</html>
+
+\`\``
+
+\### INTRO To CSS
+
+ \[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) brings color and style to ones website. Brings  a little pop too something interesting to your site that views will enjoy.
+
+\>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+
+CSS can either be written between the head tags, include in the element tag, or in a separate css file. OK to use CSS between the head tags which is called <em>Internal Style Sheet</em> let's use some style tags: `<style>h1{ backgroud-color:yellow;}</style>`:
+
+\`\``
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+\    <meta charset="utf-8">
+
+\    <title>My CSS experiment</title>
+
+\    <style>
+
+\    body {
+
+\    background-color: yellow;
+
+\    }
+
+   </style>
+
+  </head>
+
+  <body>
+
+\    <h1>Look at me!</h1>
+
+\    <p> See writing CSS not that hard.</p>
+
+  </body>
+
+</html>
+
+\`\``
+
+ One can also link a css file which will hold the style for the HTML page: `<link rel="stylesheet" href="style.css">`. Now let me show you what I mean:
+
+\`\``
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+\    <meta charset="utf-8">
+
+\    <title>My CSS example</title>
+
+\    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+\    <h1>Look at you writing HTML and CSS!</h1>
+
+\    <p>I knew you could do it.</p>
+
+  </body>
+
+</html>
+
+\`\``
+
+So let's write some CSS for our HTML that's above remember this will be written in a file called style.css
+
+\`\``
+
+h1 {
+
+  color: purple;
+
+  background-color: yellow;
+
+  border: 1px solid black;
+
+}
+
+p {
+
+  color: green;
+
+}
+
+\`\``
+
+OK here we go so the `<h1>\` header tag yep the text is purple. Also has a background color of yellow, a solid black border that's 1 pixel wide. The last tag `<p>` is a paragraph tag which text is green yep Hulk green. 
+
+So there you have it a short intro to HTML and CSS to learn more head over to \[MDN Web Docs](https://developer.mozilla.org/en-US/).
