@@ -7,12 +7,17 @@ intro_paragraph: |
   This is an example of a standard Jekyll page. You can edit it with Netlify
   CMS, accessible at `/admin/index.html` or by editing `pages/about.md` in a text editor.
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<div class="content container">
+    <div class="page">
 
-### A heading
+<p class="circle"><img  src="assets/img/uploads/isaac-circle.png" alt="isaac-circle.png" /></p>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<p class="message">
+Hey there! My name is Isaac Madearis.I am currently in my first semester at Johnson County Community College in Overland Park,KS working towards a Associate of Applied Science Degree.I enjoy taking a blank screen and making something useful.  I belive my consistency and drive to finish what I started will help me achieve my goals.My interests in web development are responsive design,browser compatibility,Css animations,SEO among other things as well.
+</p>
 
-#### Another heading
+<p>Studied at <a href="http://www.jccc.edu/">Johnson County Community Program in Web Development</a></p>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<p>You may also know more about me through my <a href="https://www.linkedin.com/in/isaac-madearis/"></a> or <a href="https://www.instagram.com/isaacmad/">Instagram</a>!</p>
+
+</div>
